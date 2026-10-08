@@ -61,6 +61,6 @@ Student & Student::operator=(const Student &right) {
 }
 
 std::string Student::toString() const {
-  return "tostring stub";
+  return "[" + std::string(name) + "," + std::to_string(perm) + "]";
 }
 
